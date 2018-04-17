@@ -1,0 +1,1 @@
+{"name":"bedard\/debugbar","description":"Debugbar integration for OctoberCMS.","homepage":"http:\/\/octobercms.com\/author\/bedard","type":"october-plugin","keywords":["october","debugbar"],"authors":[{"name":"Scott Bedard","email":"scottbedard90@gmail.com"}],"require":{"php":">=5.4.0","barryvdh\/laravel-debugbar":"2.0.6"},"replace":{"illuminate\/support":"5.1"}}

@@ -1,0 +1,33 @@
+fields:
+
+    # section_flash_messages:
+    #     label: martin.forms::lang.settings.section_flash_messages
+    #     type : section
+    #
+    # global_messages_success:
+    #          label       : martin.forms::lang.settings.global_messages_success.label
+    #          commentAbove: martin.forms::lang.settings.global_messages_success.comment
+    #          span        : left
+    #          type        : text
+    #
+    # global_messages_errors:
+    #          label       : martin.forms::lang.settings.global_messages_errors.label
+    #          commentAbove: martin.forms::lang.settings.global_messages_errors.comment
+    #          span        : left
+    #          type        : text
+
+    section_recaptcha:
+        label: martin.forms::lang.settings.section_recaptcha
+        type : section
+
+    recaptcha_help:
+        type   : partial
+        path   : $/martin/forms/models/settings/_recaptcha_help.htm
+
+    recaptcha_site_key:
+        label: martin.forms::lang.settings.recaptcha_site_key
+        span : left
+
+    recaptcha_secret_key:
+        label: martin.forms::lang.settings.recaptcha_secret_key
+        span : right
